@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}  
+body{
+    font-family:sans-serif;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    background-color: #1b77cc;
+    height: 103px;
+    display: flex;
+    
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+ .logo{
+     color: white;
+     font-size: 32px;
+     font-family: sans-serif;
+     cursor: pointer;
+     
+ }   
+.search-bar>input{
+    background-color: #ffffff;
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left: 205px;
+    margin-bottom: 29px;
+    padding-left: 22px;
+}
+.search-bar{
+    position: relative;
+}
+/* .search-bar .material-icons{
+    position: absolute;
+    color: teal;
+    top: 15px;
+} */
+.nav-link{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+}
+.nav-link li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.image img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.cash, .due, .total{
+    
+    height: 150px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba( 0, 0, 0, 0, 25);
+    color: white;
+    position: relative;
+    top: 60px;
+    bottom: 73px;
+}
+
+.cash{
+    background-color: #0099cc;
+    position: relative;
+}
+   
+.due{
+    background-color: #ff9933;
+}    
+.total{
+    background-color: #1b77cc;
+}    
+h2, h1{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 32px;
+}
+h2{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    font-size: 30px;
+}
+.main-bar{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+     margin-bottom: 75px; 
+}
+.entry{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+table{
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }

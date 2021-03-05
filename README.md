@@ -1,1 +1,0 @@
-# Nahar-figma-assignment
